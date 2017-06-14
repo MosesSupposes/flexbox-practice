@@ -1,0 +1,75 @@
+body {
+    background: #4e4e4e;
+    color: white;
+    font-family: sans-serif;
+} 
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*==============================================
+                    Classes
+================================================*/
+
+
+.title {
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 0.75em;
+    padding-top: 1.25em;
+}
+
+
+.main_container {
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: center;
+    /*justify-content: space-between;*/
+    align-content: space-between;
+    background: gainsboro;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+
+.mock_container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    height: 1.5em;
+    width: 500px;
+    background: gainsboro;
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 0 auto;
+}
+
+.mock {
+    /*flex-grow: 1;
+    flex-basis: 100%;*/
+    color: black;
+    padding-left: 0.25em;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: teal;
+}
+
+.tan {
+    background:tan;
+}
+
+
+/*=============================================
+                    ID's
+===============================================*/
+
