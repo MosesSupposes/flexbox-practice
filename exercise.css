@@ -1,0 +1,119 @@
+body {
+    background: #4e4e4e;
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+} 
+
+div {
+    border: 2px sollid black;
+    width: 7.5rem;
+    height: 6rem;
+}
+
+/*======================================
+                Containers
+=======================================*/ 
+
+.flex_container_m1 {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background: gainsboro;
+    height: 550px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto 3rem auto;
+    padding: 15px;
+}
+
+.flex_container_m2 {
+   display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: gainsboro;
+    height: 550px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto 3rem auto;
+    padding: 15px;
+}
+
+.flex_container_m3 {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: gainsboro;
+    height: 550px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto 3rem auto;
+    padding: 15px;
+}
+
+/*=====================================
+                Colors
+======================================*/
+
+.red_m1 {
+    background: #d40000;
+    flex-basis: 30%;
+    align-self: flex-end;
+}
+
+.blue_m1 {
+    background: teal;
+    flex-basis: 60%;
+}
+
+.tan_m1 {
+    background:tan;
+    flex-basis: 95%;
+}
+
+
+.purple_m2 {
+    background:	#7d26cd;
+    flex-basis: 96.5%;
+    align-self: flex-start;
+    height: 22.5%;
+}
+
+.red_m2 {
+    background: #d40000;
+    flex-basis: 30%;
+    height: 60%;
+}
+.green_m2 {
+    background: #698b22;
+    flex-basis: 30%;
+    height: 60%;
+}
+
+.orange_m2 {
+    background: #ee9a00;
+    flex-basis: 30%;
+    height: 60%;
+}
+
+
+/*===========================================
+                Misc. Classes
+===========================================*/
+
+.mock {
+    color: black;;
+    padding-left: 0.25em;
+}
+
+.title {
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 0.75em;
+    margin: 1em auto 0.75em auto;
+}
