@@ -7,17 +7,33 @@ body {
 } 
 
 div {
-    border: 2px sollid black;
+    border: 2px solid black;
     width: 7.5rem;
     height: 6rem;
+}
+
+img {
+    height: 35%;
+    width: 30%;
 }
 
 /*======================================
                 Containers
 =======================================*/ 
+.mock_container {
+    background: gainsboro;
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 0 auto;
+    height: 3em;
+    width: 80%;
+    padding-right: 30px;
+    position: relative;
+}
 
 .flex_container_m1 {
     display: flex; 
+    position: relative;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
@@ -28,10 +44,12 @@ div {
     border: 2px solid black;
     margin: 0 auto 3rem auto;
     padding: 15px;
+    padding-top: 0;
 }
 
 .flex_container_m2 {
-   display: flex; 
+    display: flex; 
+    position: relative;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
@@ -46,6 +64,7 @@ div {
 .flex_container_m3 {
     display: flex; 
     flex-flow: row wrap;
+    align-content: space-around;
     justify-content: space-around;
     align-items: flex-start;
     background: gainsboro;
@@ -67,7 +86,7 @@ div {
 }
 
 .blue_m1 {
-    background: teal;
+    background: skyblue;
     flex-basis: 60%;
 }
 
@@ -101,14 +120,35 @@ div {
     height: 60%;
 }
 
+.green_m3 {
+    background:#698b22; 
+    flex-basis: 95%;
+}
+
+.orange_m3 {
+    background: #ee9a00;
+    flex-basis: 30%
+}
+
+.red_m3 {
+    background: #d40000;
+    flex-basis: 30%;
+}
+
+.blue_m3 {
+    background: skyblue;
+    flex-basis: 30%;
+}
 
 /*===========================================
                 Misc. Classes
 ===========================================*/
 
 .mock {
-    color: black;;
+    color: black;
     padding-left: 0.25em;
+    position: absolute;
+    top: 17%;
 }
 
 .title {
